@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+  margin: 2.4rem 0;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.newdrop{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 1rem;
+}
+
+@media (max-width: 425px) {
+  h1{
+    font-size: 2rem;
+  }
+}

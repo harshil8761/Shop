@@ -1,0 +1,29 @@
+.error-section {
+  background: #f9fafb;
+  color: #333;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2.1rem 0;
+  padding: 1.1rem;
+}
+.error-child {
+  font-size: 80px;
+  margin: 0;
+  color: #2563eb;
+}
+.errorMsg{
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+.homeError {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

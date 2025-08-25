@@ -1,0 +1,53 @@
+.hero-section {
+  margin-top: 3rem;
+}
+
+.para {
+  width: 100%;
+  text-align: center;
+}
+
+.para h1 {
+  font-size: 4.5rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.para p {
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: yellow;
+  font-size: 1.3rem;
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  padding: 2.5rem 1.2rem;
+}
+
+.gallery .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .para h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
+
+  .para p {
+    padding: 10px 50px;
+    background-color: yellow;
+    font-size: 1rem;
+  }
+}

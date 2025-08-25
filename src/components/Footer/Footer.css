@@ -1,0 +1,45 @@
+footer {
+  margin-top: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+  padding: 20px;
+}
+
+.footer-col h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-col p,
+.footer-col a {
+  text-decoration: none;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.footer-left {
+  color: black;
+}
+
+.footer-left h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.footer-bottom {
+  background: #d4ff22;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}

@@ -1,0 +1,17 @@
+.thankyou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background: #f0f9ff;
+  color: #333;
+  text-align: center;
+}
+
+.thankh1 {
+  font-size: 40px;
+  margin: 0 0 10px;
+  color: #16a34a;
+}
+
